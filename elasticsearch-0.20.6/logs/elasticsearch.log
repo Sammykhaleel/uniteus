@@ -1,0 +1,61 @@
+[2014-09-30 18:11:27,366][INFO ][node                     ] [Hulk] {0.20.6}[1918]: initializing ...
+[2014-09-30 18:11:27,377][INFO ][plugins                  ] [Hulk] loaded [], sites []
+[2014-09-30 18:11:29,740][INFO ][node                     ] [Hulk] {0.20.6}[1918]: initialized
+[2014-09-30 18:11:29,741][INFO ][node                     ] [Hulk] {0.20.6}[1918]: starting ...
+[2014-09-30 18:11:29,885][INFO ][transport                ] [Hulk] bound_address {inet[/0:0:0:0:0:0:0:0%0:9300]}, publish_address {inet[/192.168.2.15:9300]}
+[2014-09-30 18:11:32,948][INFO ][cluster.service          ] [Hulk] new_master [Hulk][XXtETE5QRxuiGY7HNaQb3A][inet[/192.168.2.15:9300]], reason: zen-disco-join (elected_as_master)
+[2014-09-30 18:11:33,004][INFO ][discovery                ] [Hulk] elasticsearch/XXtETE5QRxuiGY7HNaQb3A
+[2014-09-30 18:11:33,025][INFO ][http                     ] [Hulk] bound_address {inet[/0:0:0:0:0:0:0:0%0:9200]}, publish_address {inet[/192.168.2.15:9200]}
+[2014-09-30 18:11:33,026][INFO ][node                     ] [Hulk] {0.20.6}[1918]: started
+[2014-09-30 18:11:33,093][INFO ][gateway                  ] [Hulk] recovered [0] indices into cluster_state
+[2014-09-30 18:12:29,926][INFO ][node                     ] [Hulk] {0.20.6}[1918]: stopping ...
+[2014-09-30 18:12:29,964][INFO ][node                     ] [Hulk] {0.20.6}[1918]: stopped
+[2014-09-30 18:12:29,964][INFO ][node                     ] [Hulk] {0.20.6}[1918]: closing ...
+[2014-09-30 18:12:29,979][INFO ][node                     ] [Hulk] {0.20.6}[1918]: closed
+[2014-09-30 18:16:40,408][INFO ][node                     ] [Doc Samson] {0.20.6}[3675]: initializing ...
+[2014-09-30 18:16:40,418][INFO ][plugins                  ] [Doc Samson] loaded [], sites []
+[2014-09-30 18:16:43,360][INFO ][node                     ] [Doc Samson] {0.20.6}[3675]: initialized
+[2014-09-30 18:16:43,361][INFO ][node                     ] [Doc Samson] {0.20.6}[3675]: starting ...
+[2014-09-30 18:16:43,497][INFO ][transport                ] [Doc Samson] bound_address {inet[/0:0:0:0:0:0:0:0%0:9300]}, publish_address {inet[/192.168.2.15:9300]}
+[2014-09-30 18:16:46,539][INFO ][cluster.service          ] [Doc Samson] new_master [Doc Samson][aFwnfHyNR_ikKfuAMNx5EA][inet[/192.168.2.15:9300]], reason: zen-disco-join (elected_as_master)
+[2014-09-30 18:16:46,576][INFO ][discovery                ] [Doc Samson] elasticsearch/aFwnfHyNR_ikKfuAMNx5EA
+[2014-09-30 18:16:46,592][INFO ][http                     ] [Doc Samson] bound_address {inet[/0:0:0:0:0:0:0:0%0:9200]}, publish_address {inet[/192.168.2.15:9200]}
+[2014-09-30 18:16:46,592][INFO ][node                     ] [Doc Samson] {0.20.6}[3675]: started
+[2014-09-30 18:16:46,643][INFO ][gateway                  ] [Doc Samson] recovered [0] indices into cluster_state
+[2014-09-30 18:16:55,868][INFO ][cluster.metadata         ] [Doc Samson] [articles] creating index, cause [auto(bulk api)], shards [5]/[1], mappings []
+[2014-09-30 18:16:56,431][INFO ][cluster.metadata         ] [Doc Samson] [articles] update_mapping [article] (dynamic)
+[2014-09-30 18:23:18,202][INFO ][node                     ] [Doc Samson] {0.20.6}[3675]: stopping ...
+[2014-09-30 18:23:18,277][INFO ][node                     ] [Doc Samson] {0.20.6}[3675]: stopped
+[2014-09-30 18:23:18,278][INFO ][node                     ] [Doc Samson] {0.20.6}[3675]: closing ...
+[2014-09-30 18:23:18,288][INFO ][node                     ] [Doc Samson] {0.20.6}[3675]: closed
+[2014-09-30 20:44:24,198][INFO ][node                     ] [Reignfire] {0.20.6}[51118]: initializing ...
+[2014-09-30 20:44:24,210][INFO ][plugins                  ] [Reignfire] loaded [], sites []
+[2014-09-30 20:44:27,255][INFO ][node                     ] [Reignfire] {0.20.6}[51118]: initialized
+[2014-09-30 20:44:27,255][INFO ][node                     ] [Reignfire] {0.20.6}[51118]: starting ...
+[2014-09-30 20:44:27,379][INFO ][transport                ] [Reignfire] bound_address {inet[/0:0:0:0:0:0:0:0%0:9300]}, publish_address {inet[/192.168.2.15:9300]}
+[2014-09-30 20:44:30,423][INFO ][cluster.service          ] [Reignfire] new_master [Reignfire][hM-rz1kkR-iiT_eQNn7F6g][inet[/192.168.2.15:9300]], reason: zen-disco-join (elected_as_master)
+[2014-09-30 20:44:30,460][INFO ][discovery                ] [Reignfire] elasticsearch/hM-rz1kkR-iiT_eQNn7F6g
+[2014-09-30 20:44:30,478][INFO ][http                     ] [Reignfire] bound_address {inet[/0:0:0:0:0:0:0:0%0:9200]}, publish_address {inet[/192.168.2.15:9200]}
+[2014-09-30 20:44:30,478][INFO ][node                     ] [Reignfire] {0.20.6}[51118]: started
+[2014-09-30 20:44:31,185][INFO ][gateway                  ] [Reignfire] recovered [1] indices into cluster_state
+[2014-09-30 20:51:49,034][INFO ][cluster.service          ] [Reignfire] added {[Svarog][jGX4DCv7RPaMgrUXM0f_CQ][inet[/192.168.2.15:9301]],}, reason: zen-disco-receive(join from node[[Svarog][jGX4DCv7RPaMgrUXM0f_CQ][inet[/192.168.2.15:9301]]])
+[2014-09-30 20:52:05,411][INFO ][node                     ] [Reignfire] {0.20.6}[51118]: stopping ...
+[2014-09-30 20:52:05,481][INFO ][node                     ] [Reignfire] {0.20.6}[51118]: stopped
+[2014-09-30 20:52:05,481][INFO ][node                     ] [Reignfire] {0.20.6}[51118]: closing ...
+[2014-09-30 20:52:05,491][INFO ][node                     ] [Reignfire] {0.20.6}[51118]: closed
+[2014-09-30 21:47:11,602][INFO ][node                     ] [Flash Thompson] {0.20.6}[71491]: initializing ...
+[2014-09-30 21:47:11,615][INFO ][plugins                  ] [Flash Thompson] loaded [], sites []
+[2014-09-30 21:47:14,527][INFO ][node                     ] [Flash Thompson] {0.20.6}[71491]: initialized
+[2014-09-30 21:47:14,528][INFO ][node                     ] [Flash Thompson] {0.20.6}[71491]: starting ...
+[2014-09-30 21:47:14,641][INFO ][transport                ] [Flash Thompson] bound_address {inet[/0:0:0:0:0:0:0:0%0:9300]}, publish_address {inet[/192.168.2.15:9300]}
+[2014-09-30 21:47:17,682][INFO ][cluster.service          ] [Flash Thompson] new_master [Flash Thompson][Ox1JrCJ5ToeaSWYFkK0mHQ][inet[/192.168.2.15:9300]], reason: zen-disco-join (elected_as_master)
+[2014-09-30 21:47:17,715][INFO ][discovery                ] [Flash Thompson] elasticsearch/Ox1JrCJ5ToeaSWYFkK0mHQ
+[2014-09-30 21:47:17,733][INFO ][http                     ] [Flash Thompson] bound_address {inet[/0:0:0:0:0:0:0:0%0:9200]}, publish_address {inet[/192.168.2.15:9200]}
+[2014-09-30 21:47:17,734][INFO ][node                     ] [Flash Thompson] {0.20.6}[71491]: started
+[2014-09-30 21:47:18,581][INFO ][gateway                  ] [Flash Thompson] recovered [1] indices into cluster_state
+[2014-09-30 22:10:16,308][INFO ][cluster.metadata         ] [Flash Thompson] [educations] creating index, cause [auto(index api)], shards [5]/[1], mappings []
+[2014-09-30 22:10:16,548][INFO ][cluster.metadata         ] [Flash Thompson] [educations] update_mapping [education] (dynamic)
+[2014-09-30 22:14:35,823][INFO ][node                     ] [Flash Thompson] {0.20.6}[71491]: stopping ...
+[2014-09-30 22:14:35,901][INFO ][node                     ] [Flash Thompson] {0.20.6}[71491]: stopped
+[2014-09-30 22:14:35,902][INFO ][node                     ] [Flash Thompson] {0.20.6}[71491]: closing ...
+[2014-09-30 22:14:35,916][INFO ][node                     ] [Flash Thompson] {0.20.6}[71491]: closed
