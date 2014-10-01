@@ -27,14 +27,14 @@
     
      <div class="row collapse">
   <div class="small-8 large-7 columns">
-  <%= text_field_tag :search, params[:search], type: "text",placeholder: "Search"%>
+  <%= text_field_tag :q, params[:q], type: "text",placeholder: "Search"%>
   </div>
 
   <div class="small-3 large-3 end columns">
   <%= submit_tag "Search by word", :name => nil, class: "alert button expand"%>
   <%end%>
   </div>
-  
+
   <div class="row collapse">
     <div class="small-8 large-7 columns">
   <h1>Listing educations</h1>
