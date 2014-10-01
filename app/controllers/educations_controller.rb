@@ -4,16 +4,11 @@ class EducationsController < ApplicationController
   # GET /educations
   # GET /educations.json
   def index
-    if params[:q].nil?
-      @educations = []
-    else
-      @educations = Education.search params[:q]
-    end
     if params[:search].present?
     @educations = Education.near(params[:search], 50) 
     
     else
-      @educations = Education.search params[:q]
+      @educations = Education.all
     end
       @hash = Gmaps4rails.build_markers(@educations) do |education, marker|
       marker.lat education.latitude
